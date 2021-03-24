@@ -6,14 +6,20 @@ permalink: /about/
 ## Start from Hong Kong: 199X - 2019
 Yoooo! I am Geoffrey from Hong Kong, currently in California! I graduated with my BSc in Statistics from [CUHK](https://www.cuhk.edu.hk/), the place that I am proud of <3.
 
-## Work in Hong Kong: 2014 - 2019
 I worked in various companies in Hong Kong! I am glad to meet a lot of great leaders & colleagues and learn from them.
+
+<img src="../images/about/hk_sight.jpeg" />
 
 ## Move to SF Bay Area: 2019 - Now
 In 2019, I moved to the Bay Area to attend the University of San Francisco's [MSDS](https://www.usfca.edu/arts-sciences/graduate-programs/data-science). I enjoy the environment [maybe not the downtown :( ] and all the great people I have met in the Bay Area! Sadly, I cannot experience the "normal" social life because of COVID :(
 
+<img src="../images/about/sf_sight.jpeg" />
+from time to time, I have some random walks around the Bay side, walk, sit and think
+
 ## MSDS and Manifold: 2019 - 2020
 I am fortunate enough to do my practium at [Manifold AI](https://manifold.ai/) and work on some [open-ended research](https://en.wikipedia.org/wiki/System_identification) using deep learning with world class tech-leaders and hardcore engineers. This experience also changes my understandings in ML/DS and engineering in general!
+
+<img src="../images/about/manifold.jpeg" />
 
 ## Interests
 My interests are DS and engineering in general, I am particularly interested in ML/DS workflow. I honor the [Three Virtues](http://threevirtues.com/) of a programmer and love to bring those virtues to ML/DS world!
