@@ -7,7 +7,7 @@
   
       "page1": {
           "title": "About Me",
-          "content": "Start from Hong Kong: 199X - 2019 . Yoooo! I am Geoffrey from Hong Kong, currently in California! After graduating with my BSc in Statistics from CUHK, the place that I am proud of &lt;3. . Work in Hong Kong: 2014 - 2019 . I worked in various companies in Hong Kong! I am glad to meet a lot of great leaders &amp; colleagues and learn from them. . Move to SF Bay Area: 2019 - Now . In 2019, I moved to the Bay Area to attend the University of San Francisco’s MSDS. I enjoy the environment [maybe not the downtown :( ] and all the great people I have met in the Bay Area! Sadly, I cannot experience the “normal” social life because of COVID :( . MSDS and Manifold: 2019 - 2020 . I am fortunate enough to do my practium at Manifold AI and work on some open-ended research using deep learning with world class tech-leaders and hardcore engineers. This experience also changes my understandings in ML/DS and engineering in general! . Interests . My interests are DS and engineering in general, I am particularly interested in ML/DS workflow. I honor the Three Virtues of a programmer and love to bring those virtues to ML/DS world! . Outside work and study, I have started to pick up cooking skills since 2020 [because of COVID]. I have also spent some times on Brawl Stars [hit me by #C2QRU8QQ]. Reading is also a big component of my life, I enjoy history and psychology most! I will probably include some books that impact me the most in a section of this site . For this site . I don’t think I will take aggressive approach [aka job searching] for this blog. Afterall I see there are so many blogs without updates for years after the authors found the job LOL I don’t want to be one of them and hope to sustain this blog longer. I will probably treat this as my private space and library to keep track of my thoughts and learnings. . Depending on materials, maybe I will use Chinese 中文 some times .",
+          "content": "Start from Hong Kong: 199X - 2019 . Yoooo! I am Geoffrey from Hong Kong, currently in California! I graduated with my BSc in Statistics from CUHK, the place that I am proud of &lt;3. . Work in Hong Kong: 2014 - 2019 . I worked in various companies in Hong Kong! I am glad to meet a lot of great leaders &amp; colleagues and learn from them. . Move to SF Bay Area: 2019 - Now . In 2019, I moved to the Bay Area to attend the University of San Francisco’s MSDS. I enjoy the environment [maybe not the downtown :( ] and all the great people I have met in the Bay Area! Sadly, I cannot experience the “normal” social life because of COVID :( . MSDS and Manifold: 2019 - 2020 . I am fortunate enough to do my practium at Manifold AI and work on some open-ended research using deep learning with world class tech-leaders and hardcore engineers. This experience also changes my understandings in ML/DS and engineering in general! . Interests . My interests are DS and engineering in general, I am particularly interested in ML/DS workflow. I honor the Three Virtues of a programmer and love to bring those virtues to ML/DS world! . Outside work and study, I have started to pick up cooking skills since 2020 [because of COVID]. I have also spent some times on Brawl Stars [hit me by #C2QRU8QQ]. Reading is also a big component of my life, I enjoy history and psychology most! I will probably include some books that impact me the most in a section of this site . For this site . I don’t think I will take aggressive approach [aka job searching] for this blog. Afterall I see there are so many blogs without updates for years after the authors found the job LOL I don’t want to be one of them and hope to sustain this blog longer. I will probably treat this as my private space and library to keep track of my thoughts and learnings. . Depending on materials, maybe I will use Chinese 中文 some times .",
           "url": "https://g-hung.github.io/blog/about/",
           "relUrl": "/about/",
           "date": ""
@@ -17,7 +17,7 @@
 
   
       ,"page2": {
-          "title": "books",
+          "title": "Read/Watch/Learn",
           "content": "Sapiens: A Brief History of Humankind . I have met many people said they have read this, maybe it is too famous lol I have read it and finished the Coursera course from the same author. . The single view that impacts me most is: humans are living in both subjective and objective world. In fact, money, nation, values etc are all constructed by our minds. They are meaningless if no one believe that . .",
           "url": "https://g-hung.github.io/blog/books/",
           "relUrl": "/books/",
@@ -30,8 +30,8 @@
 
   
       ,"page4": {
-          "title": "projects",
-          "content": "Project ARK . Feb 2021 . . A automataed data pipeline to scrape daily ARK holdings data using GitHub Actions, BigQuery, command line, Python and dbt. Collect the fund weight data to study the trading strategy and signals . .",
+          "title": "Projects",
+          "content": "Project ARK . Feb 2021 . . A automataed data pipeline to scrape &amp; store daily ARK holdings data using GitHub Actions, BigQuery, command line, Python and dbt. Collect the fund weight data to further study the trading strategy and signals . .",
           "url": "https://g-hung.github.io/blog/projects/",
           "relUrl": "/projects/",
           "date": ""
