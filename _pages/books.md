@@ -1,5 +1,5 @@
 ---
-title: "books"
+title: "Read/Watch/Learn"
 layout: page
 permalink: /books/
 ---
