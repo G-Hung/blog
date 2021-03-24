@@ -1,11 +1,22 @@
 {
   
+    
+        "post0": {
+            "title": "From Jupyter Notebook To Scripts",
+            "content": "This is an old article I posted in Medium, I may just provide the link without reproducing it here! . Medium link . This article records part of my learnings from my practicum at Manifold AI! I remember I was a big fan of Jupyter Notebook and wanted to use it for everything! . My first time to use Jupyter Notebook in work [not exploration / homework] was to try Databricks to handle some data processing works. I was amazed by the notebook style because I am not from CS background and I would love to see what is happening in every step! . But I found that those colleagues with CS background don’t prefer this way, I had no clues why. Slowly, I started to feel inconvenient too when the processing logics are more and more complex…….Well, things are working……. . Until I worked in Manifold AI and needed to write the whole workflow, I finally found that it is much much easier &amp; more flexible to run the code by a list of commands instead of a long Notebook…… . Plus, I have the habit to write unit tests whenever possible after I experienced how painful it is when you try to refactor any non-trival codebase . During the painful job searching period in 2020 [wtf graduated during COVID-19], I didn’t have many things to do so I summarized and wrote this up. .",
+            "url": "https://g-hung.github.io/blog/workflow/2020/08/06/from-jupyter-notebook-to-scripts.html",
+            "relUrl": "/workflow/2020/08/06/from-jupyter-notebook-to-scripts.html",
+            "date": " • Aug 6, 2020"
+        }
+        
+    
+  
 
   
   
 
   
-      "page1": {
+      ,"page1": {
           "title": "About Me",
           "content": "Start from Hong Kong: 199X - 2019 . Yoooo! I am Geoffrey from Hong Kong, currently in California! I graduated with my BSc in Statistics from CUHK, the place that I am proud of &lt;3. . I worked in various companies in Hong Kong! I am glad to meet a lot of great leaders &amp; colleagues and learn from them. . . Move to SF Bay Area: 2019 - Now . In 2019, I moved to the Bay Area to attend the University of San Francisco’s MSDS. I enjoy the environment [maybe not the downtown :( ] and all the great people I have met in the Bay Area! Sadly, I cannot experience the “normal” social life because of COVID :( . from time to time, I have some random walks around the Bay side, walk, sit and think . MSDS and Manifold: 2019 - 2020 . I am fortunate enough to do my practium at Manifold AI and work on some open-ended research using deep learning with world class tech-leaders and hardcore engineers. This experience also changes my understandings in ML/DS and engineering in general! . . Interests . My interests are DS and engineering in general, I am particularly interested in ML/DS workflow. I honor the Three Virtues of a programmer and love to bring those virtues to ML/DS world! . Outside work and study, I have started to pick up cooking skills since 2020 [because of COVID]. I have also spent some times on Brawl Stars [hit me by #C2QRU8QQ]. Reading is also a big component of my life, I enjoy history and psychology most! I will probably include some books that impact me the most in a section of this site . For this site . I don’t think I will take aggressive approach [aka job searching] for this blog. Afterall I see there are so many blogs without updates for years after the authors found the job LOL I don’t want to be one of them and hope to sustain this blog longer. I will probably treat this as my private space and library to keep track of my thoughts and learnings. . Depending on materials, maybe I will use Chinese 中文 some times .",
           "url": "https://g-hung.github.io/blog/about/",
