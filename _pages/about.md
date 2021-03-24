@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 ## Start from Hong Kong: 199X - 2019
-Yoooo! I am Geoffrey from Hong Kong, currently in California! After graduating with my BSc in Statistics from [CUHK](https://www.cuhk.edu.hk/), the place that I am proud of <3. 
+Yoooo! I am Geoffrey from Hong Kong, currently in California! I graduated with my BSc in Statistics from [CUHK](https://www.cuhk.edu.hk/), the place that I am proud of <3.
 
 ## Work in Hong Kong: 2014 - 2019
 I worked in various companies in Hong Kong! I am glad to meet a lot of great leaders & colleagues and learn from them.
