@@ -1,6 +1,7 @@
 ---
 title: "From Scripts To Prediction API"
 toc: true
+image: images/post/api_article.png
 comments: true
 layout: post
 hide: false
