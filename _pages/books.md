@@ -25,3 +25,27 @@ In short, this is the first place I will go if I need to review the topics about
 這段課文感受良多，沒有人會希望運氣不好，人品好做好準備也是會有倒楣的時候，但個人只能控制自我要求，想成為什麼境界的人就做什麼事
 
 ---
+
+# [How to Fail at Almost Everything and Still Win Big](https://www.amazon.com/How-Fail-Almost-Everything-Still-ebook/dp/B00COOFBA4)
+
+I knew Scott Adams because of his cartoons. This book shares many practical "principles" that impact me a lot, eg:
+- Goals are for losers; systems are for winners [the world is so random, it is hard to set the goal to become millionaire next year but we can do what millionaire will do]
+- Passion is useless [sad but true, no one is interested in how passionate Steve Jobs is before his success]
+- A combination of mediocre skills can make you surprisingly valuable [few top 10% skills maybe better than a single top 1%]
+
+---
+
+# [Atomic Habits](https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299)
+
+I read this after I read "systems are for winners" from Scott Adams's book. If I need to summarize the whole book, below are my takes:
+
+1. find the habits you want to build and decompose it until it is almost impossible to fail
+eg: fitness: instead of going to Gym room 4 times a week, just do at least 3 push up per day
+eg: reading: instead of reading certain pages, just read at least one paragraph per day
+eg: programming: instead of doing 10 Leetcode per day, just do the daily question
+
+2. after you identify the habits, do them for 21+ days
+
+3. don't cultivate too many at a time
+
+---
