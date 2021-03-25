@@ -1,6 +1,7 @@
 ---
 title: "From Jupyter Notebook To Scripts"
 toc: true
+image: images/post/script_article.png
 comments: true
 layout: post
 hide: false
