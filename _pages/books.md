@@ -55,3 +55,20 @@ I found this after I read "systems are for winners" from Scott Adams's book. If 
 3. Don't cultivate too many at a time
 
 ---
+
+# [Video: DO NOT SPLIT 不割席](https://vimeo.com/504381953)
+
+As Hong Konger, it doesn't make sense if I tell you I have no views on what happened over the last few years :( It is sad that the conflicts will probably last for decades b/w the people and you can do nth about that.
+
+Over these 2 years, I always have these questions in my mind:
+1. The conflict could be resolved easily from the beginning, how is it possible that the government picked the worst possible options and escalated the situation to irreversible?
+
+2. At what cost people are willing to pay for what they disagree on? It is naive to deny/justify the violence that happened. The issue is after you have tried all the possible peaceful means and got no response, it is encouraging people to go to extremes, especially if they are not the minority. People always talk about the events since 2019 July but they don't discuss why the government gave no response after a peaceful protest with 2 millions+ [aka around 1/3 of the city population].
+
+3. In my view, this is removing the brake from the movement because the peaceful supporters cannot propose another way but sit back. When did the stupid government ask why do you not condemn the violence? The answer is simple: it was you who told us peaceful marches did not work, it was you who removed the brake when we asked you not to.
+
+4. Who should be responsible? Well......it is like......someone turns on the lighter and burns the house, will you blame why the house is flammable when everyone asks you not to? It is sad that hundreds if not thousands of protestors may be in jail at last for the disaster that could be avoided from the beginning.
+
+5. I don't hold any particular "political beliefs", I don't like the bundle package because the narrative makes us give up our rational thinking. As long as we are solving the problems but not solving the people who raise the problems, any idea should be evaluated to considered and evaluated.
+
+---
