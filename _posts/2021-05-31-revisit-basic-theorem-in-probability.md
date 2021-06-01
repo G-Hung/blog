@@ -1,7 +1,7 @@
 ---
-title: "3 basic theorems in probability"
+title: "Revisit some basic theorems in probability"
 toc: true
-# image: images/post/api_article.png
+image: images/post/statistics_theorem.png
 comments: true
 layout: post
 hide: false
@@ -39,13 +39,13 @@ Recall the basic numbers for distribution, expected value and variance, one desc
 
 If the variance is small, the distribution is not that widely spread, it is less likely to get the outcome far away from the mean
 
-In mathematical terms, it is less likely to see | X - u | >= certain number, hence P( |X - u| >= certain number) should be small. 
+In mathematical terms, it is less likely to see abs(X - u) >= certain number, hence Pr[ abs(X - u) >= certain number ] should be small.
 
 When that certain number becomes even bigger, that probability should become even smaller [less likely]. 
 
 Chebyshev's inequality basically states this relationship using expected value and variance:
 
-P( |X - E(X)| >= a) <= Var(X) / a^2 for a > 0
+- Pr[ abs(X - E(X)) >= a ] <= Var(X) / a^2 for a > 0
 
 The importance of this equation is that we can calculate the sample size after we specify what level of confidence and bound we want
 
@@ -54,11 +54,11 @@ It is also beautiful! Link expected value and variance together in one inequalit
 ### Law of large number
 Recall the fact that variance will decrease when n increases and take a look on Chebyshev's inequality again!
 
-- P( |X - E(X)| >= a) <= Var(X) / a^2 for a > 0
+- Pr( abs(X - u) >= a) <= Var(X) / a^2 for a > 0
 - Var(X) -> 0 as n increases
 
-Therefore, P(|X-E(X)| >= a) -> 0 for a > 0
-Therefore, P(|mean(X)-E(X)|>=a) -> 0
+Therefore, Pr[ abs(X - E(X)) >= a ] -> 0 for a > 0
+Therefore, Pr[ abs(mean(X) - E(X) >= a ] -> 0
 
 Law of large number basically tells us the sample average will converge to expected value when n increase, basis of statistics and simulation
 
