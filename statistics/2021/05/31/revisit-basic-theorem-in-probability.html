@@ -4,19 +4,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>3 basic theorems in probability | Geoffrey Hung’s blog</title>
+<title>Revisit some basic theorems in probability | Geoffrey Hung’s blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="3 basic theorems in probability" />
+<meta property="og:title" content="Revisit some basic theorems in probability" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Central Limit Theorem; Law of large number; Chebyshev’s inequality" />
 <meta property="og:description" content="Central Limit Theorem; Law of large number; Chebyshev’s inequality" />
 <link rel="canonical" href="https://g-hung.github.io/blog/statistics/2021/05/31/revisit-basic-theorem-in-probability.html" />
 <meta property="og:url" content="https://g-hung.github.io/blog/statistics/2021/05/31/revisit-basic-theorem-in-probability.html" />
 <meta property="og:site_name" content="Geoffrey Hung’s blog" />
+<meta property="og:image" content="https://g-hung.github.io/blog/images/post/statistics_theorem.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-05-31T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://g-hung.github.io/blog/statistics/2021/05/31/revisit-basic-theorem-in-probability.html","@type":"BlogPosting","headline":"3 basic theorems in probability","dateModified":"2021-05-31T00:00:00-05:00","datePublished":"2021-05-31T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://g-hung.github.io/blog/statistics/2021/05/31/revisit-basic-theorem-in-probability.html"},"description":"Central Limit Theorem; Law of large number; Chebyshev’s inequality","@context":"https://schema.org"}</script>
+{"url":"https://g-hung.github.io/blog/statistics/2021/05/31/revisit-basic-theorem-in-probability.html","@type":"BlogPosting","headline":"Revisit some basic theorems in probability","dateModified":"2021-05-31T00:00:00-05:00","datePublished":"2021-05-31T00:00:00-05:00","image":"https://g-hung.github.io/blog/images/post/statistics_theorem.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://g-hung.github.io/blog/statistics/2021/05/31/revisit-basic-theorem-in-probability.html"},"description":"Central Limit Theorem; Law of large number; Chebyshev’s inequality","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://g-hung.github.io/blog/feed.xml" title="Geoffrey Hung's blog" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -87,7 +88,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">3 basic theorems in probability</h1><p class="page-description">Central Limit Theorem; Law of large number; Chebyshev's inequality</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-31T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Revisit some basic theorems in probability</h1><p class="page-description">Central Limit Theorem; Law of large number; Chebyshev's inequality</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-05-31T00:00:00-05:00" itemprop="datePublished">
         May 31, 2021
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -145,31 +146,15 @@ A: oooo seemingly right.....
 
 <p>If the variance is small, the distribution is not that widely spread, it is less likely to get the outcome far away from the mean</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>In mathematical terms, it is less likely to see</td>
-      <td>X - u</td>
-      <td>&gt;= certain number, hence P(</td>
-      <td>X - u</td>
-      <td>&gt;= certain number) should be small.</td>
-    </tr>
-  </tbody>
-</table>
+<p>In mathematical terms, it is less likely to see abs(X - u) &gt;= certain number, hence Pr[ abs(X - u) &gt;= certain number ] should be small.</p>
 
 <p>When that certain number becomes even bigger, that probability should become even smaller [less likely].</p>
 
 <p>Chebyshev’s inequality basically states this relationship using expected value and variance:</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>P(</td>
-      <td>X - E(X)</td>
-      <td>&gt;= a) &lt;= Var(X) / a^2 for a &gt; 0</td>
-    </tr>
-  </tbody>
-</table>
+<ul>
+  <li>Pr[ abs(X - E(X)) &gt;= a ] &lt;= Var(X) / a^2 for a &gt; 0</li>
+</ul>
 
 <p>The importance of this equation is that we can calculate the sample size after we specify what level of confidence and bound we want</p>
 
@@ -180,34 +165,12 @@ A: oooo seemingly right.....
 <p>Recall the fact that variance will decrease when n increases and take a look on Chebyshev’s inequality again!</p>
 
 <ul>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>P(</td>
-          <td>X - E(X)</td>
-          <td>&gt;= a) &lt;= Var(X) / a^2 for a &gt; 0</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
+  <li>Pr( abs(X - u) &gt;= a) &lt;= Var(X) / a^2 for a &gt; 0</li>
   <li>Var(X) -&gt; 0 as n increases</li>
 </ul>
 
-<table>
-  <tbody>
-    <tr>
-      <td>Therefore, P(</td>
-      <td>X-E(X)</td>
-      <td>&gt;= a) -&gt; 0 for a &gt; 0</td>
-    </tr>
-    <tr>
-      <td>Therefore, P(</td>
-      <td>mean(X)-E(X)</td>
-      <td>&gt;=a) -&gt; 0</td>
-    </tr>
-  </tbody>
-</table>
+<p>Therefore, Pr[ abs(X - E(X)) &gt;= a ] -&gt; 0 for a &gt; 0
+Therefore, Pr[ abs(mean(X) - E(X) &gt;= a ] -&gt; 0</p>
 
 <p>Law of large number basically tells us the sample average will converge to expected value when n increase, basis of statistics and simulation</p>
 
