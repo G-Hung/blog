@@ -3,6 +3,11 @@ title: "Read/Watch/Learn"
 layout: page
 permalink: /books/
 ---
+# [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+
+Maybe one of the best tech books in recent years, must read for serious players in data science / ML engineering, period
+
+---
 
 # [Sapiens: A Brief History of Humankind](https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari-ebook/dp/B00ICN066A)
 
