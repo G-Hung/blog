@@ -69,7 +69,9 @@ CLT tells us average of n observations of ANY r.v will follow normal, ALL distri
 Now rethink what each of them is doing
 
 CS inequality tells us that the difference b/w sample and expected value is bounded
+
 LLN tells us the difference b/w sample mean and expected value is not only bounded, but converages to zero when n increases
+
 CLT tells us the sample mean not only converages, but the distribution of sample mean converages to normal distribution when n increases regardless of underlying distributions
 
 CLT makes the biggest claim and hence is also the most famous, valuable and backbone of statistics
@@ -84,8 +86,8 @@ B: Sure, law of large number right? As we have more samples
 they will converage and hence t-test is valid even the distributions are not normal
 
 ^^^This statement is not correct^^^
-# sample mean does converges to expected value
-# but nothing to do with converging to normal distribution
+# sample mean does converge to expected value
+# but nothing to do with converging to normal distribution, that's the magic of CLT
 
 A: oooo seemingly right.....
 ```
