@@ -1,7 +1,7 @@
 ---
 title: "The weird part of data science"
 toc: true
-image: images/post/charantia.png
+image: images/post/roi-formula.png
 comments: true
 layout: post
 hide: false
