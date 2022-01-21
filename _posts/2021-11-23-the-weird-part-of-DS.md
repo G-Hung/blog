@@ -12,15 +12,15 @@ categories: [career]
 
 ### The weird part of data science
 
-Over the years, I have had different thoughts about data science, just try to write different phases down and organize my thoughts, may not have a very clear message at the end.
+Over the years, I have different thoughts about data science, just try to write different phases down and organize my thoughts, may not have a very clear message at the end.
 
 #### At the beginning......
-When I first started to work in the so-called `Data Science` field, I thought it is cool that I can finally become an ultimate idea man, think about the problem, apply the math/modeling, then success & $ will come. At that time I thought modeling/math is the most important, I cannot make extraordinary achievements because I didn't study math well enough and I should study even harder.
+When I first started to work in the so-called `Data Science` field, I thought it is cool that I can finally become an ultimate idea man, think about the problem, apply the math/modeling, then success & $ will come. At that time I thought modeling/math is the most important, and I should study even harder.
 
 Then I found that it was not the case, no one in work is interested in reading my math [damn!] or using the complex solution if not needed, actually myself as of now, also hate the "unnecessarily" [<- this is a keyword, don't overlook] complex solutions, yeah I know they sound cool on resume, it may fake someone outside the field, but tbh, who cares
 
 #### Business is the most important!?
-My mind changed and thought business is the most important, I tried to involve a little bit more in business, tried to control/plan the projects to gain more "influences".
+My mind shifted and thought business is the most important, I tried to involve a little bit more in business, tried to control/plan the projects to gain more "influences".
 
 Turned out I found there are some real insights from business/domain experts, but many are some office power games. Not many people think about what they are doing, even you follow the route in that area it will not bring the real impacts, but become a better player when climbing the corporate ladder.
 
@@ -47,7 +47,7 @@ So it seems very clear that we should do things right and have the software prac
 #### Weird part
 But in reality, why do people usually have impressions that DS/ML projects require less engineering skills? I have a few hypotheses about this
 
-1. Job role: people always confuse the job duties of data scientists, it is mix of engineer, analyst, product manager, operations. But in reality, the gap is very big, significant portion of people are working on analytics [things like experimental design, product analytics, etc], instead of developing the algorithms. It doesn't mean those are less important, as I mentioned above, it is really really hard to find a good DS in analytics with good business insights and guide the discussions. But they are the very different roles and require different skills even people may have the same title
+1. Job role: people always confuse the job duties of data scientists, it is mix of engineer, analyst, product manager, operations. But in reality, the spectrum is very wide, significant portion of people are working on analytics [things like experimental design, product analytics, etc], instead of developing the algorithms. It doesn't mean those are less important, as I mentioned above, it is really really hard to find a good DS in analytics with good business insights and guide the discussions. But they are the very different roles and require different skills even people may have the same title
 
 2. People: DS/ML fields are relatively new with fewer hard requirements, it opens up a lot of opportunities for people who are outside of the fields to join. When they climb up in the ecosystem, they start to decide the industry standard, after all, everyone has some path dependencies.
 
