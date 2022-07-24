@@ -94,7 +94,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      4 min read
     
 </span></p>
 
@@ -122,27 +122,27 @@ window.onload = wrap_img;
 
 <p>When I had my statistics class, I always confused these three in my mind:</p>
 
-<p>Chebyshev’s inequality [I don’t know how to pronounce :-\, usually just call it CS inequality]: met it few times in my life but didn’t leave me a big impression.</p>
+<p>Chebyshev’s inequality [I don’t know how to pronounce :-\, usually just call it CS inequality]: met it a few times in my life but didn’t leave me a big impression.</p>
 
 <p>Law of large number &amp; Central Limit Theorem: always use them interchangeably, but deep in my heart I remember they are different</p>
 
 <p>Recently in a conversation with my friend, we talked about some hypothesis testing things [t-test], we discussed the assumptions of t-test like this:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A: yeah, you see, even the distribution shapes of these two population are different
-By central limit theorem, the means will follow normal distribution regardless of the shape
-We can still use it even the distributions are not normal
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A: Yeah, you see, even the distribution shapes of these two populations are different
+By the central limit theorem, the means will follow normal distribution regardless of the shape
+We can still use it even if the distributions are not normal
 
-B: Sure, law of large number right? As we have more samples
-they will converage and hence t-test is valid even the distributions are not normal
+B: Sure, the law of large numbers right? As we have more samples
+they will coverage and hence t-test is valid even if the distributions are not normal
 
 A: oooo seemingly right.....
 </code></pre></div></div>
 
-<p>Obviously I am A, but I was hestiate for few seconds because I forgot what is law of large number and how is it related to CLT! I remember they have some subtle differences. Therefore, I revisit the materials in probability course recently to answer the difference myself, and what the hell is Chebyshev’s inequality</p>
+<p>Obviously, I am A, but I was hesitant for a few seconds because I forgot what is the law of large numbers and how is it related to CLT! I remember they have some subtle differences. Therefore, I revisit the materials in the probability course recently to answer the difference myself, and what the hell is Chebyshev’s inequality</p>
 
 <h3 id="chebyshevs-inequality">
 <a class="anchor" href="#chebyshevs-inequality" aria-hidden="true"><span class="octicon octicon-link"></span></a>Chebyshev’s inequality</h3>
-<p>Recall the basic numbers for distribution, expected value and variance, one describes the central tendency, another describes the spreadness of the distribution</p>
+<p>Recall the basic numbers for distribution, expected value, and variance, one describes the central tendency, another describes the spreads of the distribution</p>
 
 <p>If the variance is small, the distribution is not that widely spread, it is less likely to get the outcome far away from the mean</p>
 
@@ -162,7 +162,7 @@ A: oooo seemingly right.....
 
 <h3 id="law-of-large-number">
 <a class="anchor" href="#law-of-large-number" aria-hidden="true"><span class="octicon octicon-link"></span></a>Law of large number</h3>
-<p>Recall the fact that variance will decrease when n increases and take a look on Chebyshev’s inequality again!</p>
+<p>Recall the fact that variance will decrease when n increases and take a look at Chebyshev’s inequality again!</p>
 
 <ul>
   <li>Pr( abs(X - u) &gt;= a) &lt;= Var(X) / a^2 for a &gt; 0</li>
@@ -172,11 +172,11 @@ A: oooo seemingly right.....
 <p>Therefore, Pr[ abs(X - E(X)) &gt;= a ] -&gt; 0 for a &gt; 0
 Therefore, Pr[ abs(mean(X) - E(X) &gt;= a ] -&gt; 0</p>
 
-<p>Law of large number basically tells us the sample average will converge to expected value when n increase, basis of statistics and simulation</p>
+<p>The Law of large number basically tells us the sample average will converge to the expected value when n increases, the basis of statistics and simulation</p>
 
 <h3 id="central-limit-theorem">
 <a class="anchor" href="#central-limit-theorem" aria-hidden="true"><span class="octicon octicon-link"></span></a>Central Limit Theorem</h3>
-<p>CLT tells us average of n observations of ANY r.v will follow normal, ALL distributions, no matter how complex it is as long as mean and variance are finite</p>
+<p>CLT tells us the average of n observations of ANY r.v will follow normal, ALL distributions, no matter how complex it is as long as mean and variance are finite</p>
 
 <h3 id="conclusion">
 <a class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h3>
@@ -184,30 +184,30 @@ Therefore, Pr[ abs(mean(X) - E(X) &gt;= a ] -&gt; 0</p>
 
 <p>CS inequality tells us that the difference b/w sample and expected value is bounded</p>
 
-<p>LLN tells us the difference b/w sample mean and expected value is not only bounded, but converages to zero when n increases</p>
+<p>LLN tells us the difference b/w sample mean and expected value is not only bounded but coverages to zero when n increases</p>
 
-<p>CLT tells us the sample mean not only converages, but the distribution of sample mean converages to normal distribution when n increases regardless of underlying distributions</p>
+<p>CLT tells us the sample mean not only coverages, but the distribution of the sample mean converges to the normal distribution when n increases regardless of underlying distributions</p>
 
-<p>CLT makes the biggest claim and hence is also the most famous, valuable and backbone of statistics</p>
+<p>CLT makes the biggest claim and hence is also the most famous, valuable, and the backbone of statistics</p>
 
 <p>Recall the t-test conversation</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A: yeah, you see, even the distribution shapes of these two population are different
-By central limit theorem, the means will follow normal distribution regardless of the shape
-We can still use it even the distributions are not normal
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A: Yeah, you see, even the distribution shapes of these two populations are different
+By the central limit theorem, the means will follow normal distribution regardless of the shape
+We can still use it even if the distributions are not normal
 
-B: Sure, law of large number right? As we have more samples
-they will converage and hence t-test is valid even the distributions are not normal
+B: Sure, the law of large number right? As we have more samples
+they will coverage and hence t-test is valid even if the distributions are not normal
 
 ^^^This statement is not correct^^^
-# sample mean does converge to expected value
-# but nothing to do with converging to normal distribution, that's the magic of CLT
+# sample mean does converge to the expected value
+# but nothing to do with converging to a normal distribution, that's the magic of CLT
 
 A: oooo seemingly right.....
 </code></pre></div></div>
 
 <h3 id="disclaimer">
 <a class="anchor" href="#disclaimer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Disclaimer</h3>
-<p>Some of them are not precise &amp; complete description, eg you may rmb weak/strong law of large number, reading a mathematical statistics book maybe more useful.</p>
+<p>Some of them are not precise &amp; complete descriptions, eg you may rmb weak/strong law of large number, reading a mathematical statistics book may be more useful.</p>
 
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
