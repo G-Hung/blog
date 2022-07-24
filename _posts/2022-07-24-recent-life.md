@@ -28,34 +28,37 @@ But I know I am an easy give-up type, therefore, I need to design a lifestyle sy
 
 So I collected some common reasons for not going workout or following a healthy diet based on my own historical records:
 
-1. It is soooooo tired after work OR there are some events tonight OR workout after work kills my whole night to do something => let's take a rest for a day
-- To address this, instead of workout after work
+1. It is soooooo tired after work OR there are some events tonight OR workout after work kills my whole night to do something => let's take a rest for a day, to address this
    - I just wake up early and workout before work
    - I prepare the ready-to-go workout package [bottle, gym glove, deadlift straps, protein bar]
    - I force myself to sleep early
    - I turn on the every app limit in iOS after 10pm
    - I use iPhone notes to plan everything I need to do in the next workout
-- impacts
-   - I become a morning person
-   - I didn't miss a single workout for 2 months [I do 3 times per week currently]
 
-2. It is soooooo hard to eat healthy and precise, ordering Ubereat is so convenient!
-- To address this
+The impacts are quite interesting
+    - I become a morning person
+    - I didn't miss a single workout for 2 months [I do 3 times per week currently]
+
+2. It is soooooo hard to eat healthy and precise, ordering Ubereat is so convenient! To address this
    - I have learned how to read nutrition labels
    - I signed up for a Costco membership, do bulk purchases every 2 weeks, and prepare my own food
        - thanks to remote work I can prepare the food myself for all the meals
        - eating using Costco ingredients during weekdays saves a LOT even I bought whatever I want to eat in Costco [healthy foods of course]!
    - I bought a scale with a 0.1-gram accuracy level
    - I have used an app called MyFitnessPal to track everything I eat
-- impacts
+
+The impacts cover this areas
    - I save a lot on food and it is quite easy to track once the routine is there
    - Now I don't like to eat out not because I am cheap, but because it is difficult to track nutrition
    - I learn how to use Air fryer and cook well in a short period of time :)
    - I am accumulating the materials to make a food blog on eating well and delicious, cheap and easy LOL
-- BTW, I am not a healthy diet extremist, I still eat out with friends and have some cheat meals on weekdays
+
+BTW, I am not a healthy diet extremist, I still eat out with friends and have some cheat meals on weekdays. A good lifestyle that you can keep consistently is far better than the best habit if it is not sustainable
 
 #### Personal finance
-I spent an extensive amount of time reading and thinking about this book `Set for Life: Dominate Life, Money, and the American Dream`. For my education in the past, I wasn't exposed to money-related stuff a lot, partly because I was not interested in that [too idealistic at that time], partly because there are no courses/books/materials with a "system" view. Yeah, we know saving is important, and investment is important. At the same time, there are also voices such as there is no point to keep so much cash during high inflation, getting a salary cannot get you rich, owning assets is the king, etc.
+I spent an extensive amount of time reading and thinking about this book `Set for Life: Dominate Life, Money, and the American Dream`. For my education in the past, I wasn't exposed to money-related stuff a lot, partly because I was not interested in that [too idealistic at that time], partly because there are no courses/books/materials [from those I read before] with a "system" view.
+
+Yeah, we know saving is important, and investment is important. At the same time, there are also voices such as there is no point to keep so much cash during high inflation, getting a salary cannot get you rich, owning assets is the king, etc.
 
 Well, these are all right in theory but how can we link them all together, to understand the purpose, strategy, and tradeoff of each action, ideally stage-by-stage implementation & tracking just like a gym workout plan?
 
