@@ -44,9 +44,9 @@ This may not sound a big deal [well we can fix that] but it is illusion because 
 So it seems very clear that we should do things right and have the software practices at least similar to software engineering level [good one for sure, eg: well-covered tests, automation tools, organized code; not spaghetti code]
 
 #### Weird part
-But in reality, why do people usually have impressions that DS/ML projects require less engineering skills? I have a few hypotheses about this
+But in reality, why do people usually have impressions that DS/ML projects require fewer engineering skills? I have a few hypotheses about this
 
-1. Job role: people always confuse the job duties of data scientists, it is a mix of engineer, analyst, product manager, and operations. But in reality, the spectrum is very wide, a significant portion of people are working on analytics [things like experimental design, product analytics, etc], instead of developing the algorithms. It doesn't mean those are less important, as I mentioned above, it is hard to find a good DS in analytics with good business insights and guide the discussions. But they are very different roles and require different skills even people may have the same title
+1. Job role: people always confuse the job duties of data scientists, it is a mix of engineer, analyst, product manager, and operations. But in reality, the spectrum is very wide, a significant portion of people are working on analytics [things like experimental design, product analytics, etc], instead of developing the algorithms. It doesn't mean those are less important, as I mentioned above, it is hard to find a good DS in analytics with good business insights and guide the discussions. But they are very different roles and require different skills even though people may have the same title
 
 2. People: DS/ML fields are relatively new with fewer hard requirements in the past, it opens up a lot of opportunities for people who are outside of the fields to join. When they climb up in the ecosystem, they start to decide the industry standard, after all, everyone has some path dependencies.
 
