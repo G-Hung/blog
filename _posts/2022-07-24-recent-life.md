@@ -36,8 +36,8 @@ So I collected some common reasons for not going workout or following a healthy 
    - I use iPhone notes to plan everything I need to do in the next workout
 
 The impacts are quite interesting
-    - I become a morning person
-    - I didn't miss a single workout for 2 months [I do 3 times per week currently]
+   - I become a morning person
+   - I didn't miss a single workout for 2 months [I do 3 times per week currently]
 
 2. It is soooooo hard to eat healthy and precise, ordering Ubereat is so convenient! To address this
    - I have learned how to read nutrition labels
@@ -47,7 +47,7 @@ The impacts are quite interesting
    - I bought a scale with a 0.1-gram accuracy level
    - I have used an app called MyFitnessPal to track everything I eat
 
-The impacts cover this areas
+The impacts cover different areas
    - I save a lot on food and it is quite easy to track once the routine is there
    - Now I don't like to eat out not because I am cheap, but because it is difficult to track nutrition
    - I learn how to use Air fryer and cook well in a short period of time :)
