@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>70/30 rule | Geoffrey Hung’s blog</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="70/30 rule" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="random" />
+<meta property="og:description" content="random" />
+<link rel="canonical" href="https://g-hung.github.io/blog/random/2022/08/11/70_30rule.html" />
+<meta property="og:url" content="https://g-hung.github.io/blog/random/2022/08/11/70_30rule.html" />
+<meta property="og:site_name" content="Geoffrey Hung’s blog" />
+<meta property="og:image" content="https://g-hung.github.io/blog/images/post/expected_value.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-08-11T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://g-hung.github.io/blog/random/2022/08/11/70_30rule.html","@type":"BlogPosting","headline":"70/30 rule","dateModified":"2022-08-11T00:00:00-05:00","datePublished":"2022-08-11T00:00:00-05:00","image":"https://g-hung.github.io/blog/images/post/expected_value.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://g-hung.github.io/blog/random/2022/08/11/70_30rule.html"},"description":"random","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://g-hung.github.io/blog/feed.xml" title="Geoffrey Hung's blog" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Geoffrey Hung&#39;s blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/books/">Read/Watch/Learn</a><a class="page-link" href="/blog/projects/">Projects</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">70/30 rule</h1><p class="page-description">random</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-08-11T00:00:00-05:00" itemprop="datePublished">
+        Aug 11, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#random">random</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h3"><a href="#about-delaying-the-decision">About delaying the decision</a></li>
+<li class="toc-entry toc-h3"><a href="#7030-rule">70/30 rule</a></li>
+</ul><h3 id="about-delaying-the-decision">
+<a class="anchor" href="#about-delaying-the-decision" aria-hidden="true"><span class="octicon octicon-link"></span></a>About delaying the decision</h3>
+<p>I don’t know whether it is education or what, I prefer certainty &amp; correctness, I would delay the decision until everything is almost settled.</p>
+
+<p>While delaying the decision have the benefit of outcomes with certainty [hence I am almost always “correct”], being correct and having a good outcome are two different things. Our true objective is to have a good outcome, not being correct all the time. But this often traps the people, especially those well-educated [winners from the exam system]</p>
+
+<p>This pattern happens a lot in my previous life:</p>
+<ul>
+  <li>I like a girl, but I delay the decision to keep on collecting the information and guess</li>
+  <li>I want a job, but I delay the decision to ask, just prepare behind the scene</li>
+  <li>I want a hangout, but I delay the decision to ask until others also say they want to meet</li>
+  <li>I want a promotion, but I delay the decision to ask because I think the people should see my great works</li>
+  <li>I have a business idea, but I delay the decision to start until I see others execute &amp; plan it poorly yet succeed</li>
+</ul>
+
+<p>In the end, I am almost correct every time, I get what I correctly predict, unfortunately, that’s probably not the outcome I desire</p>
+
+<h3 id="7030-rule">
+<a class="anchor" href="#7030-rule" aria-hidden="true"><span class="octicon octicon-link"></span></a>70/30 rule</h3>
+<p>I notice this issue back in college time, I keep on pursuing the almost 95% certainty before I make the final decision. Once I make the decision, I could become super efficient. But situations often change, and those well-designed plans are no longer needed/useful</p>
+
+<p>From my statistics background, I should be able to learn more lessons from the expected value formula earlier</p>
+
+<ul>
+  <li>Using imprecise language, the expected value is the average value you can get from repeated trials
+    <ul>
+      <li>lesson 1: If the outcome just hurts our feeling in the worst case, we should pick the strategy with the max outcome and play multiple times, and ignore the failures</li>
+      <li>lesson 2: Avoid things that make you cannot play multiple times, eg: illegal activities, life-risking activities</li>
+    </ul>
+  </li>
+  <li>Empirically, P(X) and X are usually unproportional
+    <ul>
+      <li>lesson 3: If P(X) is high [you pretty certain about the outcome], X is usually low [outcome is bad], ie: low-risk low return</li>
+      <li>lesson 4: If P(X) is low [taking risk], X maybe high [outcome maybe great], ie: high risk [maybe] high return</li>
+      <li>lesson 5: from lesson 4, even if we take risks, only accept those with potentially high returns, ie: don’t cross a red light, don’t cross stop signs, these high-risk activities don’t have a high return</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The rule of thumb for me then is the 70/30 rule, if:</p>
+<ul>
+  <li>I am 70% certain about positive expected value AND</li>
+  <li>I can afford the lousy outcome</li>
+</ul>
+
+<p>Then I should just do it.</p>
+
+<p>Interestingly, for that 30% of a bad outcome, even in the worst case, it is usually not a big deal in hindsight, ie: if you win, +ve value; if you lose, only small -ve value</p>
+
+<p>Since our actions can also affect the outcome and its probability, based on mathematics, we should take more calculated risks and be optimists</p>
+
+<p>This rule increases my options because I don’t need to be correct all the time. My objective function is the high positive expected value, not the high accuracy of predicted outcomes. Rejection and embarrassment are not the evaluation metrics in the former case</p>
+
+<p>End this with an interesting quote:
+<code class="language-plaintext highlighter-rouge">Pessimists are usually right and optimists are usually wrong. But all the great changes have been accomplished by optimists.</code></p>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="G-Hung/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/random/2022/08/11/70_30rule.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/G-Hung" target="_blank" title="G-Hung"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/geoffreyhung" target="_blank" title="geoffreyhung"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#linkedin"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
