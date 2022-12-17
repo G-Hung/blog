@@ -1,7 +1,7 @@
 ---
 title: "After 1st year drive"
 toc: true
-image: images/post/camry.JPG
+image: images/post/my_camry.png
 comments: true
 layout: post
 hide: false
